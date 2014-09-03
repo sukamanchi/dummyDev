@@ -1,0 +1,9 @@
+<apex:page controller="simplegetset">
+  <apex:form >
+    <apex:outputlabel value="Enter your name here"/>
+       <apex:inputtext value="{!userinput}"/>
+       <br></br>  
+       <br></br>
+       <apex:outputtext value="You have entered the name {!userinput}"/>         
+  </apex:form>    
+</apex:page>
